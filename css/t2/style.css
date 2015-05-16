@@ -1,0 +1,42 @@
+fieldset,
+legend, 
+.field,
+.button {
+    border-color: #781351;
+}
+
+fieldset {
+    background: #ff9 url(images/bg-box-s1.gif) repeat-x bottom;
+}
+
+legend,
+.button {
+    font-weight: bold;
+    background-color: #ffa20c;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+legend {
+    padding: 2px;
+    border: 2px solid #781351;
+}
+
+.field {
+    background-color: #fee3ad;
+}
+
+.field:hover {
+    background-color: #fff;
+}
+
+.field:focus {
+    border-color: darkorange;
+    background-color: #fff;
+}
+
+.button {
+    display: block;
+    float: right;
+    background-color: #ffa20f;
+}
